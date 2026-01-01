@@ -14,7 +14,7 @@ struct Book {
 Book books[MAX];
 int countBooks = 0;
 
-// Funksioni per me shtu libra
+// Funksioni per te shtuar libra
 void addBook() {
     if (countBooks >= MAX) {
         cout << "Biblioteka eshte e mbushur!.\n";
@@ -35,7 +35,7 @@ void addBook() {
     cout << "Libri u shtua me sukses!\n";
 }
 
-// Funksioni per mi shfaq e librat
+// Funksioni per te shfaq nje liber
 void displayBooks() {
     if (countBooks == 0) {
         cout << "Nuk ka libra per te shfaqur.\n";
@@ -53,7 +53,6 @@ void displayBooks() {
 // Funksioni per me kerku libra
 void searchBook() {
     string searchTitle;
-    cin.ignore(); // <-- tiny change to prevent skipping input
     cout << "Shkruaj titullin e librit qe deshironi ta kerkoni: ";
     getline(cin, searchTitle);
 
@@ -72,7 +71,6 @@ void searchBook() {
 // Funksioni per me fshi librin
 void deleteBook() {
     string deleteTitle;
-    cin.ignore(); // <-- tiny change to prevent skipping input
     cout << "Shkruaj titullin e librit qe deshironi ta fshini: ";
     getline(cin, deleteTitle);
 
@@ -86,7 +84,7 @@ void deleteBook() {
             return;
         }
     }
-    cout << "Libri nuk u gjet.\n";
+    cout << "Libri nuk u gjet.\n"; //kur nuk ekziston
 }
 
 int main() {
@@ -125,4 +123,5 @@ int main() {
     } while (choice != 5);
 
     return 0;
-}
+}  
+
