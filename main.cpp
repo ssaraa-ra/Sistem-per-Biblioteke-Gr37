@@ -53,6 +53,7 @@ void displayBooks() {
 // Funksioni per me kerku libra
 void searchBook() {
     string searchTitle;
+    cin.ignore(); // <-- tiny change to prevent skipping input
     cout << "Shkruaj titullin e librit qe deshironi ta kerkoni: ";
     getline(cin, searchTitle);
 
@@ -71,6 +72,7 @@ void searchBook() {
 // Funksioni per me fshi librin
 void deleteBook() {
     string deleteTitle;
+    cin.ignore(); // <-- tiny change to prevent skipping input
     cout << "Shkruaj titullin e librit qe deshironi ta fshini: ";
     getline(cin, deleteTitle);
 
@@ -124,4 +126,3 @@ int main() {
 
     return 0;
 }
-
