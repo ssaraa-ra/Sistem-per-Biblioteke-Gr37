@@ -14,7 +14,7 @@ struct Book {
 Book books[MAX];
 int countBooks = 0;
 
-// Funksioni per te shtuar libra
+// Funksioni per te shtuar nje liber
 void addBook() {
     if (countBooks >= MAX) {
         cout << "Biblioteka eshte e mbushur!.\n";
@@ -124,3 +124,4 @@ int main() {
 
     return 0;
 }  
+
