@@ -2,6 +2,7 @@
 
 This is a simple **C++** program for managing a small library. It allows users to add, display, search, and delete books from the collection.
 
+---
 ## Features
 
 - Add new books with **ID**, **title**, and **author**.
