@@ -14,7 +14,7 @@ struct Book {
 Book books[MAX];
 int countBooks = 0;
 
-// Funksioni per me shtu libra
+// Funksioni per te shtuar libra
 void addBook() {
     if (countBooks >= MAX) {
         cout << "Biblioteka eshte e mbushur!.\n";
@@ -35,7 +35,7 @@ void addBook() {
     cout << "Libri u shtua me sukses!\n";
 }
 
-// Funksioni per mi shfaq e librat
+// Funksioni per te shfaq nje liber
 void displayBooks() {
     if (countBooks == 0) {
         cout << "Nuk ka libra per te shfaqur.\n";
@@ -84,7 +84,7 @@ void deleteBook() {
             return;
         }
     }
-    cout << "Libri nuk u gjet.\n";
+    cout << "Libri nuk u gjet.\n"; //kur nuk ekziston
 }
 
 int main() {
