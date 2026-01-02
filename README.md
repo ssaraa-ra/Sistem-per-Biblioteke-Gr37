@@ -60,20 +60,31 @@ Option	Description
 4.	Delete a book by title
 5.	Exit the program
 
+---
 ## Program Logic
 
 - The program runs in a loop until the user selects option 5 (Exit).
-
 - User input is handled using a switch statement.
-
 - Book data is stored temporarily in an array.
-
 - Each menu option calls a separate function.
-
+---
 ## Limitations
 
 - Data is not saved to a file (data is lost when the program ends).
-
 - Book search and deletion require an exact title match.
-
 - Maximum of 50 books can be stored.
+---
+## Purpose
+
+This project is intended for learning basic C++ concepts such as:
+
+- Structures
+- Arrays
+- Functions
+- Loops
+- Conditional statements
+- Menu-driven programs
+---
+## License
+
+This project is free to use for educational purposes.
