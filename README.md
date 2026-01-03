@@ -84,10 +84,10 @@ This project is intended for learning basic C++ concepts such as:
 ---
 ## Authors
 
-- @ssaraa-ra
-- @nektarhalili-up
-- @getoarmehmeti
-- @endritn1
+- [@ssaraa-ra](https://github.com/ssaraa-ra)
+- [@nektarhalili-up](https://github.com/nektarhalili-up)
+- [@getoarmehmeti](https://github.com/getoarmehmeti)
+- [@endritn1](https://github.com/endritn1)
 ---
 ## License
 
